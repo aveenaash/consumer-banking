@@ -15,6 +15,8 @@ public class AccountController {
 	@Autowired
 	private AccountService accountService;
 	
+	//TODO my testing git check
+	
 	@RequestMapping(value = "account", method = RequestMethod.GET)
 	public ModelAndView showAccount(@RequestParam(value = "customerid") long customerId) {
 		System.out.println("customerId : " + customerId);
