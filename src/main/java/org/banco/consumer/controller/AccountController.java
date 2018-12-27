@@ -16,6 +16,7 @@ public class AccountController {
 	private AccountService accountService;
 	
 	//TODO my testing git check
+	//this is second git testing
 	
 	@RequestMapping(value = "account", method = RequestMethod.GET)
 	public ModelAndView showAccount(@RequestParam(value = "customerid") long customerId) {
